@@ -1,4 +1,4 @@
-package apps;
+package aplication;
 
 public class App{
     public static void tela_inicial() {

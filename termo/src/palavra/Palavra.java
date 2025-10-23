@@ -2,10 +2,10 @@ package palavra;
 
 public class Palavra{
 
-    public String nome;
+    private String palavras = "";
 
-    public Palavra (String nome){
-        this.nome = nome;
+    public Palavra (String palavra){
+        this.palavras = palavra;
     }
 
 }
