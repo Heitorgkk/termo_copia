@@ -1,4 +1,5 @@
 package utilidade;
+
 import java.io.FileNotFoundException;
 import java.util.ArrayList;
 import java.util.List;
@@ -17,7 +18,7 @@ public class Read {
         return entrada;
     }
 
-    public static List<String> leia_arquivo(File arquivo){
+    public static ArrayList<String> leia_arquivo(File arquivo){
 
         ArrayList<String> conteudo = new ArrayList<>();
 
