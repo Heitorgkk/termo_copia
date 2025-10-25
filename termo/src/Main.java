@@ -1,5 +1,7 @@
 import aplication.App;
+import palavra.Palavra;
 import utilidade.*;
+import java.util.ArrayList;
 
 public class Main{
     public static void main(String[] args) {
@@ -7,8 +9,8 @@ public class Main{
         App.tela_inicial();
 
 
-        //Palavra um = new Palavra("gelos");
-        
+        Palavra uma = new Palavra();
+        System.out.println(uma.palavra);
 
 
     }

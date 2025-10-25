@@ -22,28 +22,28 @@ public class Cores {
             "\u001B[37m",
     };
 
-    public void cor_reset(){
+    public static void cor_reset(){
         System.out.print(reset);
     }
-    public void cor_verm(){
+    public static void cor_verm(){
         System.out.print(vermelho);
     }
-    public void cor_verde(){
+    public static void cor_verde(){
         System.out.print(verde);
     }
-    public void cor_amar(){
+    public static void cor_amar(){
         System.out.print(amarelo);
     }
-    public void cor_azul(){
+    public static void cor_azul(){
         System.out.print(azul);
     }
-    public void cor_roxo(){
+    public static void cor_roxo(){
         System.out.print(roxo);
     }
-    public void cor_cian(){
+    public static void cor_cian(){
         System.out.print(ciano);
     }
-    public void cor_bran(){
+    public static void cor_bran(){
         System.out.print(branco);
     }
 

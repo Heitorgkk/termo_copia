@@ -7,12 +7,17 @@ import utilidade.Rnd;
 
 public class Palavra{
 
-    File wordlist = new File("wordlist.txt");
+    File wordlist = new File("C:\\Users\\heitor_klimkowski\\IdeaProjects\\termo_copia\\termo\\src\\wordlist.txt");
 
-    public ArrayList<String> palavras = Read.leia_arquivo(wordlist);
+    private ArrayList<String> palavras = Read.leia_arquivo(wordlist);
 
-    private String palavra;
+    public ArrayList<String> get_palavras(){
+        return palavras;
+    }
 
+    public String palavra;
+
+    //cria uma palavra com valor inicial
     public Palavra (){
         this.palavra = palavras.get(Rnd.rnd_int(palavras.size()));
     }

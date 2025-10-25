@@ -5,21 +5,9 @@ public class Clsc {
     //quebra a linha 15 vezes
     public static void clsc(){
 
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
-        System.out.println();
+        for (int i = 1; i <= 15; i++){
+            System.out.println();
+        }
 
     }
 
